@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Patua+One&display=swap');
+
+* {
+    box-sizing: content-box;
+    font-size: medium;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: #15202C;
+    margin: 0;
+
+}
+
+
+main {
+    background-color: #21303D;
+    margin: 0 calc(20%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    color: rgb(234, 255, 254);
+    text-align: center;
+    width: 90%%;
+    max-width: 1000px;
+}
+
+section {
+    border-radius: 5% 5% 0 0;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    background-color: #15202B;
+
+}
+
+img {
+
+    display: block;
+    width: 600px;
+    margin: auto;
+    border-radius: 5%;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: smaller;
+    font-style: italic;
+}
+
+h1,
+h2 {
+    font-family: 'Patua One', Arial, Helvetica, sans-serif;
+    text-shadow: none;
+    margin: 20px 0;
+}
+
+
+h1 {
+    font-size: 3rem;
+}
+
+#who h2 {
+    font-size: 3rem;
+}
+
+article {
+    /* margin: 20px; */
+}
+
+.examples h2 {
+
+    font-weight: 300;
+    padding: 20px;
+}
+
+main .header p {
+    text-align: center;
+}
+
+main p {
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 70%;
+    text-align: justify;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    width: 200px;
+    /* align-items: center; */
+    /* align-self: center; */
+    /* text-align: center; */
+    /* align-content: center; */
+
+    border: 0;
+    border-top: 2px solid rgb(56, 99, 149);
+    margin: 1em auto;
+    padding: 0;
+}
